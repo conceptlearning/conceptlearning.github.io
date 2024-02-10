@@ -47,6 +47,13 @@
   }
 }
 
+.header-background .img {
+  background-image: url("../img/header_banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+}
+
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
