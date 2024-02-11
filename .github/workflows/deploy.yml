@@ -25,6 +25,7 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
+      - "_protected_pages.txt"
   pull_request:
     branches:
       - master
