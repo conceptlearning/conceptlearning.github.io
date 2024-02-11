@@ -96,6 +96,8 @@ jobs:
             sudo npx pagecrypt "_site/$file" "_site/$file" "$password"
           done
       # End encryption code.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
