@@ -10,8 +10,9 @@ nav_order: 4
 ## Relevant Papers and Materials
 
 Below we include a list of works in Concept representation learning, particularly in the
-areas of Interpretability/Explainability, that are relevant to our tutorial's
-content. We will dicuss several of this papers in our tutorial, however we thought
+areas of Interpretability/Explainability, that are relevant to concept-based
+interpretable machine learning.
+We will discuss several of these papers in our presentation, however we thought
 that it may be benefitial to write them down in list format for people to access
 these works more easily. Please keep in mind that this is in **no way an exhaustive list of important works within concept learning**
 as this is a fast moving field and we have only so much space we can use here.
@@ -50,7 +51,7 @@ Finally, we include some papers that describe very interesting things one can
 do once one has learnt some concept representations (regardless of whether these
 representations were learnt with or without concept supervision). These works
 are highly related to the field of neuro-symbolic reasoning and we discuss them
-in more detail in our tutorial:
+in more detail in our presentation:
 
 <div class="publications">
   {% bibliography -f reasoning%}

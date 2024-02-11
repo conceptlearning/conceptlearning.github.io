@@ -1,3 +1,1 @@
 index.html ICML24_Tutorial@
-tutorial/index.html ICML24_Tutorial@
-resources/index.html ICML24_Tutorial@
