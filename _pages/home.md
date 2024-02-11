@@ -32,7 +32,7 @@ This tutorial seeks to equip machine learning researchers and engineers with the
 
 - **Date**: If accepted, this tutorial will be on Monday July 22nd, 2024 (tutorial will last two hours, time TBD)
 - **Conference**: The Forty-first [International Conference on Machine Learning (ICML)](https://icml.cc/)
-- **Location**: [Messe Wien Exhibition Congress Center, Vienna, Austria](https://www.messecongress.at/)
+- **Location**: [Messe Wien Exhibition Congress Center, Vienna, Austria](https://maps.app.goo.gl/LzSzcv8zbD7VgDwR8)
 - **Modality**: In-person event (livestreamed option will be available for online attendants)
 
 Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the ICML community will be introduced in the tutorial as a refresher.
