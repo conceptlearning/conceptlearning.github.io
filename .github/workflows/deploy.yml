@@ -53,6 +53,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -82,6 +84,17 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      # Begin encryption code.
+      # This portion of the build job was written by Evan Baldonado (EvanBaldonado.com). Please do not remove this comment.
+      # Note: this only encrypts .html pages and not any of the corresponding assets.
+      - name: Encrypt pages with PageCrypt
+        run: |
+          npm i -D pagecrypt
+          cat _protected_pages.txt | while read file password;
+          do
+            sudo npx pagecrypt "_site/$file" "_site/$file" "$password"
+          done
+      # End encryption code.
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
