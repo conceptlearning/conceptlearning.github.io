@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-home_title: Concept-based Interpretable Machine Learning
+home_title: Concept-based Interpretable Deep Learning
 subtitle:
 nav_title: Home
 permalink: /
-description: "Submission for ICML 2024's Call for Tutorials. Please note that this tutorial is <span style='color:red;'><b>under review</b></span> and therefore <span style='color:red;'><b>it may not be included</b></span> as part of the main program."
+description: "Submission for NeurIPS 2024's Call for Tutorials. Please note that this tutorial is <span style='color:red;'><b>under review</b></span> and therefore <span style='color:red;'><b>it may not be included</b></span> as part of the main program."
 ---
 
 
@@ -24,18 +24,23 @@ Under this paradigm, a model can construct an explanation for its predictions us
 Concept-based reasoning encourages a model to learn to explain its outputs using higher-level representations than its possibly individually uninformative input features (e.g., pixels). As representations for these concepts can be learnt or discovered by differentiable DNNs in an end-to-end fashion, CL provides a promising framework for constructing interpretable architectures and concept representations without losing the expressivity that lies behind the success of current DNNs; all while aligning a model's reasoning to concept-based reasoning common amongst humans. Such flexibility has enabled CL to quickly evolve into a highly inter-disciplinary field with strong connections to other active research areas within representation learning.
 
 
-This tutorial seeks to equip machine learning researchers and engineers with the necessary background to understand how to use and expand some of the tools proposed within CL in their respective areas of interest. We achieve this by appealing to newcomers to the field through discussions of foundational works within CL and appealing to experienced CL researchers through discussions of very recent directions. With these goals in mind, this tutorial will begin by motivating the need and importance of CL in the modern AI ecosystem and then proceed by expanding on the state of the field through three technical sections. We will then conclude our tutorial by focusing on open questions within CL and establishing a list of challenges which we believe could be solved in the next few years, hopefully encouraging a fruitful discussion on how to best tackle these challenges. We hope that by the end of this tutorial, the audience will be able to comfortably identify the areas of CL that may be useful for their work and will leave with a deeper understanding of some of the crucial open research questions within CL.
+This tutorial seeks to equip machine learning researchers and engineers with the necessary background to understand how to use and expand some of the tools proposed within CL in their respective areas of interest. We achieve this by appealing to newcomers to the field through discussions of foundational works within CL and appealing to experienced CL researchers through discussions of very recent directions. With these goals in mind, this tutorial will begin by motivating the need and importance of CL in the modern AI ecosystem and then proceed by expanding on the state of the field through three technical sections.
+
+
+We will conclude our tutorial with a **panel** formed by several distinguished researchers in CL with diverse backgrounds and expertise.
+This panel will discuss open challenges our community should prioritise in coming years as well as highlight how CL is currently used, and could potentially be used, across other fields of study and industry.
+By the end of this tutorial, we hope the audience will be able to comfortably identify the areas of CL that may be useful for their work, and will leave with a deeper understanding of some of the open research questions in CL.
 
 ## Important Details
 
 [This is a proposal for a tutorial which is <span style='color:red;'><b>still under review</b></span>. When a decision is made, we will update this website accordingly.]
 
-- **Date**: If accepted, this tutorial will be on Monday July 22nd, 2024 (tutorial will last two hours, time TBD)
-- **Conference**: The Forty-first [International Conference on Machine Learning (ICML)](https://icml.cc/)
-- **Location**: [Messe Wien Exhibition Congress Center, Vienna, Austria](https://maps.app.goo.gl/LzSzcv8zbD7VgDwR8)
-- **Modality**: In-person event (livestreamed option will be available for online attendants)
+- **Date**: If accepted, this tutorial will be on Monday December 9th, 2024 (tutorial will last two and a half hours, time TBD)
+- **Conference**: The Thirty-eighth Annual Conference on [Neural Information Processing Systems (NeurIPS)](https://nips.cc/)
+- **Location**: [Vancouver Convention Center, Vancouver, Canada](https://g.co/kgs/eW2Mp7J)
+- **Modality**: In-person event (livestreamed option will be available for virtual attendants)
 
-Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the ICML community will be introduced in the tutorial as a refresher.
+Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the NeurIPS community will be introduced in the tutorial as a refresher.
 
 All relevant material used and discussed during the tutorial will be made available through [here](/tutorial) immediatedly after the tutorial is over.
 
@@ -51,6 +56,24 @@ All relevant material used and discussed during the tutorial will be made availa
       </div>
   </div>
 
+## Panelists
+  <div class="row projects pt-1 pb-1">
+      <div class="col-sm-4">
+          {% include people.html name="Been Kim" affiliation="Google DeepMind" url="https://beenkim.github.io/" img="/assets/img/people/been_kim.jpeg" %}
+      </div>
+      <div class="col-sm-4">
+          {% include people.html name="Julius Adebayo" affiliation="Guide Labs" url="https://juliusadebayo.com/" img="/assets/img/people/julius_adebayo.jpeg" %}
+      </div>
+      <div class="col-sm-4">
+          {% include people.html name="Cynthia Rudin" affiliation="Duke University" url="https://users.cs.duke.edu/~cynthia/" img="/assets/img/people/cynthia_rudin.jpeg" %}
+      </div>
+      <div class="col-sm-4">
+          {% include people.html name="James Zou" affiliation="Stanford University" url="https://www.james-zou.com/" img="/assets/img/people/james_zou.jpeg" %}
+      </div>
+  </div>
+
+
+## Contact
 
 For any questions, please do not hesitate to contact Mateo at
 [me466@cam.ac.uk](mailto:me466@cam.ac.uk).
