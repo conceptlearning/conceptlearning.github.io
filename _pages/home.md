@@ -5,7 +5,7 @@ home_title: Concept-based Interpretable Deep Learning
 subtitle:
 nav_title: Home
 permalink: /
-description: "Submission for NeurIPS 2024's Call for Tutorials. Please note that this tutorial is <span style='color:red;'><b>under review</b></span> and therefore <span style='color:red;'><b>it may not be included</b></span> as part of the main program."
+description: "Submission for AAAI 2025's Call for Tutorials. Please note that this tutorial is <span style='color:red;'><b>under review</b></span> and therefore <span style='color:red;'><b>it may not be included</b></span> as part of the main program."
 ---
 
 
@@ -27,22 +27,21 @@ Concept-based reasoning encourages a model to learn to explain its outputs using
 This tutorial seeks to equip machine learning researchers and engineers with the necessary background to understand how to use and expand some of the tools proposed within CL in their respective areas of interest. We achieve this by appealing to newcomers to the field through discussions of foundational works within CL and appealing to experienced CL researchers through discussions of very recent directions. With these goals in mind, this tutorial will begin by motivating the need and importance of CL in the modern AI ecosystem and then proceed by expanding on the state of the field through three technical sections.
 
 
-We will conclude our tutorial with a **panel** formed by several distinguished researchers in CL with diverse backgrounds and expertise.
-This panel will discuss open challenges our community should prioritise in coming years as well as highlight how CL is currently used, and could potentially be used, across other fields of study and industry.
+We will conclude our tutorial by discussing open challenges our community should prioritise in coming years as well as highlighting how CL is currently used, and could potentially be used, across other fields of study and industry.
 By the end of this tutorial, we hope the audience will be able to comfortably identify the areas of CL that may be useful for their work, and will leave with a deeper understanding of some of the open research questions in CL.
 
 ## Important Details
 
 [This is a proposal for a tutorial which is <span style='color:red;'><b>still under review</b></span>. When a decision is made, we will update this website accordingly.]
 
-- **Date**: If accepted, this tutorial will be on Monday December 9th, 2024 (tutorial will last two and a half hours, time TBD)
-- **Conference**: The Thirty-eighth Annual Conference on [Neural Information Processing Systems (NeurIPS)](https://nips.cc/)
-- **Location**: [Vancouver Convention Center, Vancouver, Canada](https://g.co/kgs/eW2Mp7J)
-- **Modality**: In-person event (livestreamed option will be available for virtual attendants)
+- **Date**: If accepted, this tutorial will be held on February 25/26, 2024 (tutorial will last three and a half hours + a 30 min break, specific time and date TBD)
+- **Conference**: The Thirty-ninth Annual [AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-25/)
+- **Location**: [Philadelphia, Pennsylvania, USA](https://g.co/kgs/Ttnk49V)
+- **Modality**: In-person event
 
-Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the NeurIPS community will be introduced in the tutorial as a refresher.
+Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the AAAI community will be introduced in the tutorial as a refresher.
 
-All relevant material used and discussed during the tutorial will be made available through [here](/tutorial) immediatedly after the tutorial is over.
+All relevant material used and discussed during the tutorial, **including a recording of the tutorial**, will be made available through [here](/tutorial) immediatedly after the tutorial is over.
 
 
 
@@ -53,22 +52,6 @@ All relevant material used and discussed during the tutorial will be made availa
       </div>
       <div class="col-sm-4">
         {% include people.html name="Pietro Barbiero" affiliation="Università della Svizzera Italiana" url="https://www.pietrobarbiero.eu/" img="/assets/img/people/pietro.jpeg" %}
-      </div>
-  </div>
-
-## Panelists
-  <div class="row projects pt-1 pb-1">
-      <div class="col-sm-4">
-          {% include people.html name="Been Kim" affiliation="Google DeepMind" url="https://beenkim.github.io/" img="/assets/img/people/been_kim.jpeg" %}
-      </div>
-      <div class="col-sm-4">
-          {% include people.html name="Julius Adebayo" affiliation="Guide Labs" url="https://juliusadebayo.com/" img="/assets/img/people/julius_adebayo.jpeg" %}
-      </div>
-      <div class="col-sm-4">
-          {% include people.html name="Cynthia Rudin" affiliation="Duke University" url="https://users.cs.duke.edu/~cynthia/" img="/assets/img/people/cynthia_rudin.jpeg" %}
-      </div>
-      <div class="col-sm-4">
-          {% include people.html name="James Zou" affiliation="Stanford University" url="https://www.james-zou.com/" img="/assets/img/people/james_zou.jpeg" %}
       </div>
   </div>
 
