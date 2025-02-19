@@ -1,4 +1,5 @@
 github_repos:
+  - pyc-team/pytorch_concepts
   - dmitrykazhdan/concept-based-xai
   - pietrobarbiero/pytorch_explain
   - tensorflow/tcav
