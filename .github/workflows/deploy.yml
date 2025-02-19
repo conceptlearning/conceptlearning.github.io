@@ -106,6 +106,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site/
+          name: github-pages
       # - name: Deploy 🚀
       #   if: github.event_name != 'pull_request'
       #   uses: JamesIves/github-pages-deploy-action@v4
@@ -122,4 +123,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
