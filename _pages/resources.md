@@ -11,8 +11,8 @@ nav_order: 4
 
 Below we include a list of works in Concept representation learning, particularly in the
 areas of Interpretability/Explainability, that are relevant to concept-based
-interpretable machine learning.
-We will discuss several of these papers in our presentation, however we thought
+interpretable deep learning.
+We will discuss several of these papers in our tutorial, however we thought
 that it may be benefitial to write them down in list format for people to access
 these works more easily. Please keep in mind that this is in **no way an exhaustive list of important works within concept learning**
 as this is a fast moving field and we have only so much space we can use here.

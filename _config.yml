@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Concept-based Interpretable Machine Learning"
+title: "Concept-based Interpretable Deep Learning"
 email: me466@cam.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Project website for our proposal for ICML 2024's Tutorial on Concept Learning
-  for Interpretable Machine Learning.
+  Project website for our AAAI 2025 Tutorial on Concept-based
+  Interpretable Deep Learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Inspired by the NeurIPS'22 Workshop on SBMs' <a href="https://score-based-methods-workshop.github.io/" target="_blank">site</a>.

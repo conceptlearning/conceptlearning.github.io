@@ -5,50 +5,44 @@ home_title: Concept-based Interpretable Deep Learning
 subtitle:
 nav_title: Home
 permalink: /
-description: "Submission for AAAI 2025's Call for Tutorials. Please note that this tutorial is <span style='color:red;'><b>under review</b></span> and therefore <span style='color:red;'><b>it may not be included</b></span> as part of the main program."
+description:
 ---
 
+<div style="margin: auto; text-align: center;">
+  Tutorial held in conjunction with <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a><br>
+
+  Pennsylvania Convention Center (Room 120A), Philadelphia, USA<br>
+
+  February 25<sup>th</sup>, 2025 from 14:00 to 18:00<br>
+
+</div>
 
 ## Introduction
 
-From the moment artificial intelligence (AI) drifted away from symbolic and low-parametric models into the realm of powerful but opaque deep neural networks (DNNs), the AI community has strived to understand how these models learn and reason.
-Today, the lack of transparency of such complex models is taking a significant spot in the public discourse as unintended consequences of using "unauditeable" models have become apparent \[[1](https://www.nature.com/articles/s42256-021-00338-7), [2](https://www.nytimes.com/2017/06/13/opinion/how-computers-are-harming-criminal-justice.html), [3](https://www.sacbee.com/news/california/fires/article216227775.html), [4](https://us.macmillan.com/books/9781250074317/automatinginequality), [5](https://www.nature.com/articles/d41586-019-03228-6), [6](https://www.nature.com/articles/s41746-019-0105-1)\].
-As we move towards an era in which highly parametric models begin to permeate various facets of our lives, it has become paramount for the AI community to explore practical mechanisms to make these models interpretable.
+As notoriously opaque deep neural networks (DNNs) become commonplace in powerful Artificial Intelligence (AI) systems, there has been a sharp increase in making DNNs interpretable by construction. *Concept representation Learning* (CL) \[[1](https://proceedings.mlr.press/v80/kim18d.html), [2](https://netdissect.csail.mit.edu/), [3](https://proceedings.mlr.press/v119/koh20a.html), [4](https://www.nature.com/articles/s42256-020-00265-z), [5](https://arxiv.org/abs/2209.09056), [6](https://arxiv.org/abs/2304.14068)\], a subfield in eXplainable AI (XAI), has emerged as a promising direction for designing high-performing interpretable neural architectures. At their core, CL methods learn an intermediate set of high-level *concept representations* (e.g., “stripped texture”, “round object”, etc.) from which they can predict a downstream task.
 
+Driven by recent rich representations extracted from large datasets and models, CL has moved from a field constrained by the need for concept annotations to one where practical, powerful concept representations can be exploited without costly annotations. This tutorial aims to capitalise on the surge of interest in CL by equipping AI researchers and engineers with the necessary background to understand the current state of this body of work and build on it for their own research. Specifically, this tutorial will provide an overview of foundational and recent works in (i) **supervised concept learning**, (ii) **unsupervised concept learning**, and (iii) **concept-based neuro-symbolic reasoning**. We will conclude by highlighting several connections between CL and other areas in AI (e.g., disentanglement learning, representation learning, bias mitigation, etc.) and bringing forth key open questions within the field.
 
-*Concept representation Learning* (CL) \[[7](https://proceedings.mlr.press/v80/kim18d.html), [8](https://netdissect.csail.mit.edu/), [9](https://proceedings.mlr.press/v119/koh20a.html), [10](https://www.nature.com/articles/s42256-020-00265-z), [11](https://arxiv.org/abs/2209.09056), [12](https://arxiv.org/abs/2304.14068)\], a highly active subfield of Explainable AI (XAI), has recently gained attention as a promising approach for addressing the opacity of modern neural architectures.
-Methods within this family circumvent the complexity in a DNN's reasoning process by forcing such reasoning to depend on intermediate high-level units of information called *concepts*.
-Under this paradigm, a model can construct an explanation for its predictions using representations that are aligned with a "vocabulary" similar to that used by an expert on the same task (e.g., predicting a knee has grade-4 osteoarthritis because it has "decreased synovial fluid" and "reduced joint space").
+#### Required Background
 
+Our material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the AAAI community will be (re)introduced in our tutorial.
 
-Concept-based reasoning encourages a model to learn to explain its outputs using higher-level representations than its possibly individually uninformative input features (e.g., pixels). As representations for these concepts can be learnt or discovered by differentiable DNNs in an end-to-end fashion, CL provides a promising framework for constructing interpretable architectures and concept representations without losing the expressivity that lies behind the success of current DNNs; all while aligning a model's reasoning to concept-based reasoning common amongst humans. Such flexibility has enabled CL to quickly evolve into a highly inter-disciplinary field with strong connections to other active research areas within representation learning.
+All relevant material used and discussed during the tutorial, **including a recording of the tutorial**, will be made available [here](/tutorial).
 
-
-This tutorial seeks to equip machine learning researchers and engineers with the necessary background to understand how to use and expand some of the tools proposed within CL in their respective areas of interest. We achieve this by appealing to newcomers to the field through discussions of foundational works within CL and appealing to experienced CL researchers through discussions of very recent directions. With these goals in mind, this tutorial will begin by motivating the need and importance of CL in the modern AI ecosystem and then proceed by expanding on the state of the field through three technical sections.
-
-
-We will conclude our tutorial by discussing open challenges our community should prioritise in coming years as well as highlighting how CL is currently used, and could potentially be used, across other fields of study and industry.
-By the end of this tutorial, we hope the audience will be able to comfortably identify the areas of CL that may be useful for their work, and will leave with a deeper understanding of some of the open research questions in CL.
 
 ## Important Details
 
-[This is a proposal for a tutorial which is <span style='color:red;'><b>still under review</b></span>. When a decision is made, we will update this website accordingly.]
 
-- **Date**: If accepted, this tutorial will be held on February 25/26, 2024 (tutorial will last three and a half hours + a 30 min break, specific time and date TBD)
-- **Conference**: The Thirty-ninth Annual [AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-25/)
-- **Location**: [Philadelphia, Pennsylvania, USA](https://g.co/kgs/Ttnk49V)
-- **Modality**: In-person event
-
-Our tutorial's material will assume a basic knowledge of ML (e.g., foundations of supervised learning, experimental design, basic probabilistic modelling, etc.), with particular emphasis on a solid Deep Learning foundation (e.g., tensor calculus, neural networks, backpropagation, etc.). Concepts that may require mathematical tools/expertise beyond those one would expect to be shared among the AAAI community will be introduced in the tutorial as a refresher.
-
-All relevant material used and discussed during the tutorial, **including a recording of the tutorial**, will be made available through [here](/tutorial) immediatedly after the tutorial is over.
-
+- **Date**: This tutorial will be held on February 25, 2025 from 14:00 to 18:00.
+- **Conference**: The Thirty-ninth Annual [AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-25/).
+- **Location**: *Room 120A* of the Pennsylvania Convention Center, [Philadelphia, USA](https://g.co/kgs/Ttnk49V).
+- **Modality**: In-person event with the option to join online via Underline (requires AAAI tutorial registration).
 
 
 ## Presenters
-  <div class="row projects pt-1 pb-1">
+  <div class="row projects pt-1 pb-1" style="justify-content: center;">
       <div class="col-sm-4">
-          {% include people.html name="Mateo Espinosa Zarlenga" affiliation="University of Cambridge" url="https://mateoespinosa.github.io/" img="/assets/img/people/mateo_2.jpg" %}
+          {% include people.html name="Mateo Espinosa Zarlenga" affiliation="University of Cambridge" url="https://mateoespinosa.github.io/" img="/assets/img/people/mateo.jpg" %}
       </div>
       <div class="col-sm-4">
         {% include people.html name="Pietro Barbiero" affiliation="Università della Svizzera Italiana" url="https://www.pietrobarbiero.eu/" img="/assets/img/people/pietro.jpeg" %}
