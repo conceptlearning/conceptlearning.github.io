@@ -42,10 +42,10 @@ All relevant material used and discussed during the tutorial, **including a reco
 ## Presenters
   <div class="row projects pt-1 pb-1" style="justify-content: center;">
       <div class="col-sm-4">
-          {% include people.html name="Mateo Espinosa Zarlenga" affiliation="University of Cambridge" url="https://mateoespinosa.github.io/" img="/assets/img/people/mateo.jpg" %}
+          {% include people.html name="Mateo Espinosa Zarlenga" affiliation="University of Cambridge, UK" url="https://mateoespinosa.github.io/" img="/assets/img/people/mateo.jpg" %}
       </div>
       <div class="col-sm-4">
-        {% include people.html name="Pietro Barbiero" affiliation="Università della Svizzera Italiana" url="https://www.pietrobarbiero.eu/" img="/assets/img/people/pietro.jpeg" %}
+        {% include people.html name="Pietro Barbiero" affiliation="IBM Research, Switzerland" url="https://www.pietrobarbiero.eu/" img="/assets/img/people/pietro.jpeg" %}
       </div>
   </div>
 
