@@ -19,13 +19,24 @@ as this is a fast moving field and we have only so much space we can use here.
 Nevertheless, we still hope you may find this list helpful if you want to get
 a sense of where the field is and where it is heading.
 
-#### Surveys
+#### Concept Learning Surveys
 These are some of the surveys that touch on concept representation learning
 and its use in interpretable/explainable AI:
 
 <div class="publications">
   {% bibliography -f surveys%}
 </div>
+
+#### Various Aspects of XAI
+Similarly, there are several key surveys/works that discuss formalisms,
+definitons, and limitatons of key ideas in the general field of XAI. These
+works touch upon definitions of what it means to explain a model and on some of
+the issues of so-called "traditional" XAI approaches (e.g., saliency methods):
+
+<div class="publications">
+  {% bibliography -f xai_surveys%}
+</div>
+
 
 #### Supervised Concept Learning
 Here we include some relevant works in concept representation learning that
@@ -56,6 +67,7 @@ in more detail in our presentation:
 <div class="publications">
   {% bibliography -f reasoning%}
 </div>
+
 
 ----
 ----
