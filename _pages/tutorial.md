@@ -8,7 +8,12 @@ nav_order: 2
 
 # Tutorial Material
 
-You can find our **tutorial slides** here ([pptx](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pptx), [pdf](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pdf)).
+You can find our original **AAAI 2025 tutorial's slides** here ([pptx](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pptx), [pdf](/assets/documents/AAAI_2025_Concept_based_interpretable_AI_tutorial.pdf)).
+
+The slides of the shorter, but updated vesion of this tutorial that we ran
+at the [**Neuro-Symbolic AI Summer School 2025**](https://lu.ma/pqzv80yd) can be found here ([pptx](/assets/documents/NeSy_Summer_School_2025_Foundations_of_Intepretable_AI_Slide_Deck_Final.pptx), [pdf](/assets/documents/NeSy_Summer_School_2025_Foundations_of_Intepretable_AI_Slide_Deck_Final.pdf)).
+This talk was inspired in our recent work on ["Foundations of Interpretable Models"](https://arxiv.org/abs/2508.00545).
+
 
 If we get access to a recording of our presentation, we will include it in this
 section as soon as possible.
